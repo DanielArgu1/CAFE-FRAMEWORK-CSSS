@@ -1,0 +1,35 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #663830;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: linear-gradient(100deg, #000000, #00000020), url('img/banner.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 80vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-left: 20px;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
